@@ -1,0 +1,26 @@
+{
+  "name": "playwright-e2e",
+  "version": "1.0.0",
+  "description": "## Environment variables",
+  "main": "index.js",
+  "scripts": {
+    "report": "npx playwright show-report",
+    "test": " npx playwright test",
+    "test-chromium": "npx playwright test --project=\"chromium\" --headed",
+    "test-chromium-headless": "npx playwright test --project=\"chromium\"",
+    "test-chromium-debug": "npx playwright test --project=\"Chrome\" --debug",
+    "test-firefox": "npx playwright test --project=\"firefox\" --headed",
+    "test-firefox-headless": "npx playwright test --project=\"firefox\"",
+    "test-firefox-debug": "npx playwright test --project=\"firefox\" --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  }
+}

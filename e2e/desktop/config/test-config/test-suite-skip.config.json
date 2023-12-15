@@ -1,0 +1,11 @@
+{
+  "all": {
+    "skip": false,
+    "exclude": {
+      "e2e.desktop.loginPage": true
+    }
+  },
+  "individual": {
+    "e2e.desktop.loginPage": false
+  }
+}

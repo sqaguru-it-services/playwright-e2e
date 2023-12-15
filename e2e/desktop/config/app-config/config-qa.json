@@ -1,0 +1,4 @@
+{
+  "testEnv": "qa",
+  "baseUrl": "https://www.saucedemo.com"
+}
